@@ -54,8 +54,8 @@ class Road {
 
       polyline = listOfPoints
           .map((e) => LngLat(
-                lng: e.first,
-                lat: e.last,
+                lng: e.first * 1.0,
+                lat: e.last* 1.0,
               ))
           .toList();
     }
